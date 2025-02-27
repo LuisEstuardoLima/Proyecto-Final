@@ -1,0 +1,39 @@
+Proyecto Final 
+
+El problema que se tiene es resolver el calculo del costo de una cotización de seguro considerando diversos factores que aumentaran el precio base, se busca determinar el valor total de la póliza de seguro, de acuerdo con la de edad, estado civil, edad de la pareja(si aplica), e hijos(Si aplican).
+
+Los casos a considerar en la cotización serian los siguientes:
+
+La edad del asegurado, se aplica un recargo dependiendo de la edad en la que se encuentre.
+
+Estado civil y edad del cónyuge, se agrega un recargo dependiendo de la edad del cónyuge.
+
+Hijos, si hay hijos por cada uno de ellos se tiene un recargo fijo de 20% sobre el precio base.
+
+En resumen, el problema se centra en la correcta aplicación de estos recargos para determinar el precio final de la póliza.
+
+
+ALGORITMO PARA CALCULAR LA COTIZACIÓN DEL SEGURO:
+
+Pasos del algoritmo:
+
+1. Definir variables útiles
+2. Solicitar datos al usuario.
+   * Nombre
+   * Edad
+   * Estado civil
+3. Solicitar información del cónyuge (si aplica)
+   * Edad
+4. Convertir las edades a números. 
+5. Solicitar si tiene hijos.
+6. Solicitar cantidad de hijos (si aplica).
+7. Calcular recargos por edad del asegurado.
+   * >=18 <=24, 10%.
+   * >=25 <=49, 20%.
+   * >=50, 30%.
+8. Calcular recargo por edad del cónyuge (si aplica).
+9. Calcular recargo por la cantidad de hijos (si aplica).
+   * 20% C/U.
+10. Calcular precio final.
+11. Mostrar Resultados. 
+  
