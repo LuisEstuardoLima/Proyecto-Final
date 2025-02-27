@@ -1,0 +1,24 @@
+El algoritmo es el siguiente:
+
+1. Se inicializan las variables.
+2. Bucle principal(while).
+3. Entrada de datos.
+	* Se solicita el nombre del asegurado
+	* Se solicita la edad.
+	* Se solicita el estado civil.
+	* Se solicita la edad del cónyuge
+	* se pregunta si tiene hijos
+	* Se solicita la cantidad de propiedades
+	* Se Solicita el Salario mensual.
+4. Se calculan los recargos.
+	Si la edad está entre 18-24, aplicar un 10%.
+	Si la edad está entre 25-49, aplicar un 20%.
+	Si la edad es 50 o más, aplicar un 30%
+	Si tiene cónyuge se aplica recargo por edad.
+	Si tiene hijos se agrega el recargo por la cantidad de hijos
+	Se agrega recargo por la cantidad de propiedades.
+	Se agrega recargo por el salario.
+5. Se Calcula el precio final.
+6. Se muestran los resultados.
+7. Se repite el proceso, hasta que se escriba salir. 
+
