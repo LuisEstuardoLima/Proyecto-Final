@@ -1,0 +1,1 @@
+el programa tiene como funcion calcular el precio de un seguro basao en una serie de condiciones, como la edad, edad del conyuge si aplica, la cantidad de hijos si aplicara, la cantidad de propiedades y el salario mensual, asi mismo esta hecho para que no deje de dar cotizaciones, hasta que marquemos la "Salida"
